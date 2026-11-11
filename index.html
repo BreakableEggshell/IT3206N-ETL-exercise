@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSV to JSON</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Tricia Diago Gubaton</h1>
+    <p class="subtitle"><em>IT 3206N MW 6:00-8:00PM</em></p>
+  </header>
+
+  <main>
+    <h2>ETL Exercise</h2>
+
+    <section class="card">
+      <h3>1. Upload Source CSV Files</h3>
+
+      <div class="field">
+        <label for="sisFile">Student Information System (SIS):</label>
+        <input type="file" id="sisFile" accept=".csv">
+      </div>
+      <div class="field">
+        <label for="lmsFile">Learning Management System (LMS):</label>
+        <input type="file" id="lmsFile" accept=".csv">
+      </div>
+      <div class="field">
+        <label for="accFile">Accounting System:</label>
+        <input type="file" id="accFile" accept=".csv">
+      </div>
+
+      <div class="actions">
+        <button id="runBtn">RUN ETL</button>
+      </div>
+      <p id="status" class="hint">Upload the three CSV files and click RUN ETL.</p>
+    </section>
+
+    <section class="card">
+      <h3>2. JSON Output</h3>
+      <pre id="output">Upload the CSV files and click RUN ETL.</pre>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

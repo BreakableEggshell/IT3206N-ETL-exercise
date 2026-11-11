@@ -1,0 +1,6 @@
+student_id,course_code,final_grade,completion_status
+1001,IT101,1.50,Completed
+1002,CS101,1.75,completed
+1003,IT101,2.00,Completed
+1005,CS101,1.25,Completed
+1006,IT101,INC,In Progress
